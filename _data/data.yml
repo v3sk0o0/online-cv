@@ -33,16 +33,15 @@ sidebar:
       # - idiom: Spanish
       #   level: Professional
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
+    # interests:
+    #   - item: Climbing
+    #     link:
+    #
+    #   - item: Snowboarding
+    #     link:
+    #
+    #   - item: Cooking
+    #     link:
 
 career-profile:
     title: Career Profile
@@ -90,21 +89,30 @@ experiences:
     - role: Python Developer/Data Science Engineer
       time: 2019 - Present
       company: Browswave, Sofia
-      details:
+      details: |
+     - Worked, supported and extended data pipelines.
+     - Created multiple flask API for internal usage (documented with OpenAPI Specification)
+     - Utilized Pylint, the Python unit test framework for testing the
+    functionalily of the software
+     - Created multiple scripts for monitoring internal data for anomalies.
+     Worked on an internal framework for "big" data validation
+     - Worked with Elasticsearch/ Elasticsearch ORM
+      |
 
     - role: Python Developer
       time: 2016 - 2019
       company: Strypes, Sofia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
+    - Worked with team of developers on Python applications for Linux
+      patch tooling.
+    - Working with an Agile and Scrum methodologies to ensure delivery of
+    high qualifity software
+    - Extensive code reviewing using pull requests and improved code
+    quality
+    - Utilized PyUnit, the Python unit test framework for testing the
+    functionalily of the software
+    - Involved in entire lifecycle of the project
+    |
 # projects:
 #     title: Projects
 #     intro: >
@@ -164,11 +172,11 @@ skills:
       - name: Pyunittestest/PyTest
         level: 85%
 
-      - name: Elasticsearch
+      - name: Elasticsearch (+ Databases)
         level: 50%
 
       - name: Docker/Docker-compose
-        level: 70%
+        level: 80%
 
 #
 # footer: >
