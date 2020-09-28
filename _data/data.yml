@@ -19,12 +19,7 @@ sidebar:
     github: v3sk0o0
     gitlab:
     bitbucket:
-    familiar:
 
-        - Version control systems
-        - Core Java/C++
-        - Data structures
-        - OOP paradigm
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
@@ -177,6 +172,15 @@ skills:
 
       - name: Docker/Docker-compose
         level: 80%
+
+      - name: Data structures
+        level: 75%
+
+      - name: Version control systems
+        level: 90%
+
+      - name: OOP paradigm
+        level: 85%
 
 #
 # footer: >
