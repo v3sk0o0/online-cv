@@ -19,13 +19,18 @@ sidebar:
     github: v3sk0o0
     gitlab:
     bitbucket:
+    familiar:
+        - version control systems
+        - Core Java/C++
+        - Data structures
+        - OOP paradigm
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
-
-    languages:
-      - idiom: English
-        level: Native
+    #
+    # languages:
+    #   - idiom: English
+    #     level: Native
       #
       # - idiom: French
       #   level: Professional
