@@ -35,17 +35,11 @@ sidebar:
       #   level: Professional
 
     familiar:
-      - item: Data pipelines
+      - item: Data pipelines, Data structures, Unix
 
-      - item: Data structures
+      - item: Version control systems, OOP paradigm
 
-      - item: Unix
-
-      - item: Version control systems
-
-      - item: OOP paradigm
-
-      - item: Fundamental knowledge of multiple programming languages  
+      - item: Fundamental knowledge of multiple programming languages
     # interests:
     #   - item: Climbing
     #     link:
