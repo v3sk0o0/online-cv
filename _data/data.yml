@@ -167,20 +167,24 @@ skills:
       - name: Pyunittestest/PyTest
         level: 85%
 
-      - name: Elasticsearch (+ Databases)
-        level: 50%
+      - name: Containers (Docker/docker-compose)
+        level: 60%
 
-      - name: Docker/Docker-compose
-        level: 80%
+      - name: Databases/Search engines
+        level: 60%
+
+      - name: Data pipelines
 
       - name: Data structures
-        level: 75%
+
+      - name: Unix
 
       - name: Version control systems
-        level: 90%
 
       - name: OOP paradigm
-        level: 85%
+
+      - name: Fundamental knowledge of multiple programming languages
+
 
 #
 # footer: >
