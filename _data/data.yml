@@ -90,26 +90,26 @@ experiences:
       time: 2019 - Present
       company: Browswave, Sofia
       details: |
-     - Worked, supported and extended data pipelines.
-     - Created multiple flask API for internal usage (documented with OpenAPI Specification)
-     - Utilized Pylint, the Python unit test framework for testing the functionalily of the software
-     - Created multiple scripts for monitoring internal data for anomalies.
-     - Worked on an internal framework for "big" data validation
+      Worked, supported and extended data pipelines.
+      Created multiple flask API for internal usage (documented with OpenAPI Specification)
+      Utilized Pylint, the Python unit test framework for testing the functionalily of the software
+      Created multiple scripts for monitoring internal data for anomalies.
+      Worked on an internal framework for "big" data validation
 
 
     - role: Python Developer
       time: 2016 - 2019
       company: Strypes, Sofia
       details: |
-    - Worked with team of developers on Python applications for Linux
+     Worked with team of developers on Python applications for Linux
       patch tooling.
-    - Working with an Agile and Scrum methodologies to ensure delivery of
+     Working with an Agile and Scrum methodologies to ensure delivery of
     high qualifity software
-    - Extensive code reviewing using pull requests and improved code
+     Extensive code reviewing using pull requests and improved code
     quality
-    - Utilized PyUnit, the Python unit test framework for testing the
+     Utilized PyUnit, the Python unit test framework for testing the
     functionalily of the software
-    - Involved in entire lifecycle of the project
+     Involved in entire lifecycle of the project
 # projects:
 #     title: Projects
 #     intro: >
