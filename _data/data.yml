@@ -34,6 +34,18 @@ sidebar:
       # - idiom: Spanish
       #   level: Professional
 
+    familiar:
+      - item: Data pipelines
+
+      - item: Data structures
+
+      - item: Unix
+
+      - item: Version control systems
+
+      - item: OOP paradigm
+
+      - item: Fundamental knowledge of multiple programming languages  
     # interests:
     #   - item: Climbing
     #     link:
@@ -173,17 +185,7 @@ skills:
       - name: Databases/Search engines
         level: 60%
 
-      - name: Data pipelines
 
-      - name: Data structures
-
-      - name: Unix
-
-      - name: Version control systems
-
-      - name: OOP paradigm
-
-      - name: Fundamental knowledge of multiple programming languages
 
 
 #

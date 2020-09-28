@@ -1,15 +1,19 @@
-{% assign familiar = site.data.data.sidebar.familiar %}
-{% if familiar %}
+{% assign interests = site.data.data.sidebar.familiar %}
+{% if interests %}
 <div class="interests-container container-block">
 
-  <h2 class="degree">
-    Familiar with:
+  <h2 class="container-block-title">
+    I'm familiar with:
   </h2>
 
-  <ul class="list-unstyled familiar-list">
-    {% for technology in familiar %}
+  <ul class="list-unstyled interests-list">
+    {% for interest in interests %}
 
-      <li>{{ technology }}</li>
+      {% if interest.link %}
+      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      {% else %}
+      <li>{{ interest.item }}</li>
+      {% endif %}
 
     {% endfor %}
   </ul>
