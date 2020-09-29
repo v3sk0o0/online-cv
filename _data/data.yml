@@ -96,11 +96,11 @@ experiences:
       time: 2019 - Present
       company: Browswave, Sofia
       details: |
+            - Worked on an internal framework for "big" data validation
             - Expirenced first hand  data pipelines
             - Created multiple flask API for internal usage (documented with OpenAPI Specification)
             - Utilized Pylint, the Python unit test framework for testing the functionalily of the software
             - Created multiple scripts for monitoring internal data for anomalies
-            - Worked on an internal framework for "big" data validation
 
 
     - role: Python Developer
