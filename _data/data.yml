@@ -62,6 +62,9 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
 
       Second paragraph if required.
+      From a couple years ago, I`ve started listed to podcast. I would recommend Radiolab​,
+      99% Invisible, Benjamin Walker’s theory of everything​ and
+      The Prof G Show with Scott Galloway [https://westwoodonepodcasts.com/pods/the-prof-g-show-with-scott-galloway/]
 
 education:
     - degree: MSc in Technology entrepreneurship
@@ -100,10 +103,10 @@ experiences:
       company: Browswave, Sofia
       details: |
             - Worked on an internal framework for "big" data validation
-            - Expirenced first hand  data pipelines.
+            - Expirenced first hand data pipelines
             - Created multiple flask API for internal usage (documented with OpenAPI Specification)
             - Utilized Pylint, the Python unit test framework for testing the functionalily of the software
-            - Created multiple scripts for monitoring internal data for anomalies.
+            - Created multiple scripts for monitoring internal data for anomalies
 
 
     - role: Python Developer
@@ -116,6 +119,7 @@ experiences:
         - Extensive code reviewing using pull requests and improved code quality
         - Utilized PyUnit, the Python unit test framework for testing the functionalily of the software
         - Involved in entire lifecycle of the project
+        - Be a part of the company's internal training team for onboarding new employees and interrn
 # projects:
 #     title: Projects
 #     intro: >
