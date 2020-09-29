@@ -55,7 +55,7 @@ sidebar:
 career-profile:
     title: Software Developer
     summary: |
-      Hey, I'm Veselin Zdravkov. I'm a passionate python developer based in Sofia.
+      I'm a passionate python developer based in Sofia.
       I enjoy turning complex problems into simple, creative and intuitive solutions.
       I'm curious about learning new skills and abilities. My latest endeavors are playing
       (online) board games and trying to rediscover painting.
@@ -92,7 +92,7 @@ education:
       #     - Bullet point
 
     - degree: Tertiary education
-      university: High school of mathematics 'Baba tonka', Rousse
+      university: High school of mathematics 'Baba Tonka', Rousse
       time: 2004 - 2012
 
 experiences:
