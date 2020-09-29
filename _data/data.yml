@@ -37,7 +37,9 @@ sidebar:
     familiar:
       - item: Python, Data pipelines, Data structures, Unix
 
-      - item: Version control systems, OOP paradigm
+      - item: Version control systems
+
+      - item: OOP paradigm, SOLID
 
       - item: Fundamental knowledge of multiple programming languages
     # interests:
@@ -63,7 +65,7 @@ career-profile:
 
 education:
     - degree: MSc in Technology entrepreneurship
-      university: Sofia University
+      university: Sofia University, Sofia
       time: 2016 - 2018
       # details: |
       #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -76,7 +78,7 @@ education:
       #     - Bullet point
 
     - degree: BSc in Informatics
-      university: Sofia University
+      university: Sofia University, Sofia
       time: 2012 - 2016
       # details: |
       #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -89,7 +91,7 @@ education:
       #     - Bullet point
 
     - degree: Tertiary education
-      university: High school of mathematics 'Baba tonka'
+      university: High school of mathematics 'Baba tonka', Rousse
       time: 2004 - 2012
 
 experiences:
@@ -97,11 +99,11 @@ experiences:
       time: 2019 - Present
       company: Browswave, Sofia
       details: |
+            - Worked on an internal framework for "big" data validation
             - Expirenced first hand  data pipelines.
             - Created multiple flask API for internal usage (documented with OpenAPI Specification)
             - Utilized Pylint, the Python unit test framework for testing the functionalily of the software
             - Created multiple scripts for monitoring internal data for anomalies.
-            - Worked on an internal framework for "big" data validation
 
 
     - role: Python Developer
@@ -170,7 +172,7 @@ skills:
       - name: Python
         level: 85%
 
-      - name: Pyunittestest/PyTest
+      - name: Pyunittes/PyTest
         level: 85%
 
       - name: Containers (Docker/docker-compose)
