@@ -38,7 +38,7 @@ sidebar:
       - item: Python, Data pipelines, Data structures, Unix,
         Version control systems, OOP paradigm,
         Fundamental knowledge of multiple programming languages,
-        OpenAPI
+        OpenAPI, SOLID, Python Web frameworks 
     # interests:
     #   - item: Climbing
     #     link:
