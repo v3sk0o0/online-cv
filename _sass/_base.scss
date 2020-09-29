@@ -177,6 +177,11 @@ p {
         margin-bottom: 60px;
     }
 
+    .new-summary{
+         text-align: justify;
+         text-justify: inter-word;
+    }
+
     .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
@@ -261,7 +266,6 @@ p {
         background: lighten($theme-color, 15%);
     }
 }
-
 
 
 
