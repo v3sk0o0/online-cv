@@ -55,12 +55,12 @@ sidebar:
 career-profile:
     title: Software Developer
     summary: |
-      As a passionate python developer based in Sofia, I enjoy turning
+      As a passionate Python developer based in Sofia, I enjoy turning
       complex problems into simple, creative and intuitive solutions.
       I'm curious about learning new skills and abilities. My latest endeavors are playing
       (online) board games and trying to rediscover painting.
 
-      From a couple years ago, I've started listing to a lot of podcasts. I would recommend [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)​,
+      Since a couple years ago, I've started listening to a lot of podcasts. I would recommend [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)​,
       [99% Invisible](https://99percentinvisible.org/), [Benjamin Walker’s theory of everything​](https://www.radiotopia.fm/podcasts/theory-of-everything) and
       [The Prof G Show with Scott Galloway](https://westwoodonepodcasts.com/pods/the-prof-g-show-with-scott-galloway/)
 
@@ -117,7 +117,7 @@ experiences:
         - Extensive code reviewing using pull requests and improved code quality
         - Utilized PyUnit, the Python unit test framework for testing the functionalily of the software
         - Involved in entire lifecycle of the project
-        - Be a part of the company's internal training team for onboarding new employees and interrn
+        - Be a part of the company's internal training team for onboarding new employees and interns
 # projects:
 #     title: Projects
 #     intro: >
@@ -174,7 +174,7 @@ skills:
       - name: Python
         level: 85%
 
-      - name: Pyunittes/PyTest
+      - name: Pyunittest/PyTest
         level: 85%
 
       - name: Containers (Docker/docker-compose)
