@@ -185,6 +185,11 @@ p {
     .new-details{
          text-align: justify;
          text-justify: inter-word;
+
+         li{
+            text-align: justify;
+            text-justify: inter-word;
+         }
     }
     .experiences-section, .educations-section {
         .item {
