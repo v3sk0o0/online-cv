@@ -197,11 +197,11 @@ nskills:
       - name: Pyunittest/PyTest
         info: Used on a daily basis. Assure quality of the written code
 
-      - name: Containers (Docker/docker-compose)
+      - name: Containers - Docker
         info: Create a sandbox simulation of testing purposes.
               Deploy, debug and manage
 
-      - name: Python API
+      - name: APIs written in Python
         info: Create APIs for internal company usage. Documentated with OpenAPI standart
 
       - name: Version Control systems
