@@ -41,7 +41,6 @@ sidebar:
 
       - item: OOP paradigm, SOLID
 
-      - item: Fundamental knowledge of multiple programming languages
     # interests:
     #   - item: Climbing
     #     link:
@@ -57,8 +56,7 @@ career-profile:
     summary: |
       As a passionate Python developer based in Sofia, I enjoy turning
       complex problems into simple, creative and intuitive solutions.
-      I value the most work culture and the relationships between team members.
-      I'm open to be introduced to new technologies outside my comfort zone.
+      I'm open to explore new technologies outside my comfort zone.
 
       I'm curious about learning new skills and abilities. My latest endeavors are playing
       (online) board games and trying to rediscover painting.  Since a couple years ago, I've started listening to a lot of podcasts.
@@ -202,7 +200,7 @@ nskills:
               Deploy, debug and manage
 
       - name: APIs written in Python
-        info: Create APIs for internal company usage. Documentated with OpenAPI standart
+        info: Create APIs for internal company usage. Documented with OpenAPI
 
       - name: Version Control systems
         info: Used on a daily basis.
