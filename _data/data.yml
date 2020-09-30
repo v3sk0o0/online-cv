@@ -58,7 +58,7 @@ career-profile:
       As a passionate Python developer based in Sofia, I enjoy turning
       complex problems into simple, creative and intuitive solutions.
       I value the most work culture and team dynamics.
-      I'm willing to learn new technologies if the company wants to co-invest resources in me.
+      I'll glably learn new technologies if the company wants to co-invest resources in me.
 
       I'm curious about learning new skills and abilities. My latest endeavors are playing
       (online) board games and trying to rediscover painting.  Since a couple years ago, I've started listening to a lot of podcasts.
@@ -186,7 +186,22 @@ skills:
       - name: Databases/Search engines
         level: 60%
 
+nkills:
+    title: Skills &amp; Proficiency
 
+    toolset:
+      - name: Python
+        level: 85%
+        info: Lorem ipsum
+
+      - name: Pyunittest/PyTest
+        level: 85%
+
+      - name: Containers (Docker/docker-compose)
+        level: 60%
+
+      - name: Databases/Search engines
+        level: 60%
 
 
 #
