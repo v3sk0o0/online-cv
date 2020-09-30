@@ -57,8 +57,8 @@ career-profile:
     summary: |
       As a passionate Python developer based in Sofia, I enjoy turning
       complex problems into simple, creative and intuitive solutions.
-      I value the most work culture and team dynamics.
-      I'll glably learn new technologies if the company wants to co-invest resources in me.
+      I value the most work culture and the relationships between team members.
+      I'm open to be introduced to new technologies outside my comfort zone.
 
       I'm curious about learning new skills and abilities. My latest endeavors are playing
       (online) board games and trying to rediscover painting.  Since a couple years ago, I've started listening to a lot of podcasts.
@@ -70,7 +70,8 @@ education:
     - degree: MSc in Technology entrepreneurship
       university: Sofia University, Sofia
       time: 2016 - 2018
-      # details: |
+      details: |
+        Master thesis:​ Semantic Segmentation of Google Search Queries
       #   Describe your study here lorem ipsum dolor sit amet, consectetuer
       #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
       #   sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -169,42 +170,55 @@ experiences:
 #       - title: A syntax directed compiler for Algol 60
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python
-        level: 85%
-
-      - name: Pyunittest/PyTest
-        level: 85%
-
-      - name: Containers (Docker/docker-compose)
-        level: 60%
-
-      - name: Databases/Search engines
-        level: 60%
+#
+# skills:
+#     title: Skills &amp; Proficiency
+#
+#     toolset:
+#       - name: Python
+#         level: 85%
+#
+#       - name: Pyunittest/PyTest
+#         level: 85%
+#
+#       - name: Containers (Docker/docker-compose)
+#         level: 60%
+#
+#       - name: Databases/Search engines
+#         level: 60%
 
 nskills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python
-        level: 10%
-        info: Lorem ipsum
+        info: Primary expertise. 4+ years of production ready code
 
       - name: Pyunittest/PyTest
-        level: 10%
-        info: Lorem ipsum
+        info: Used on a daily basis. Assure quality of the written code
 
       - name: Containers (Docker/docker-compose)
-        level: 10%
-        info: Lorem ipsum
+        info: Create a sandbox simulation of testing purposes.
+              Deploy, debug and manage
 
-      - name: Databases/Search engines
-        level: 10%
-        info: Lorem ipsum
+      - name: Python API
+        info: Create APIs for internal company usage. Documentated with OpenAPI standart
+
+      - name: Version Control systems
+        info: Used on a daily basis.
+
+      - name: Elasticsearch
+        info: Used Elasticsearch on a daily basis. For productions purpses, I`ve tinkered with PostgreSQL/MongoDB.
+
+      - name: (Python) Web developement
+        info: At home, I`ve experiment with the most popular (python) frameworks - Django, Flask, etc
+
+      - name: Data pipelines
+        info: 1 year of experience of creating, monitoring and supporting data pipelines.
+
+      - name: Addtional programming languages
+        info: During my software career, I`ve tinkered with C/C++, Java, Javascript, Ruby, Haskell, Elixir, etc.
+              However, I have written production code only Java and Perl.
 
 
 #
