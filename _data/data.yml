@@ -191,17 +191,20 @@ nkills:
 
     toolset:
       - name: Python
-        level: 85%
+        level: 10%
         info: Lorem ipsum
 
       - name: Pyunittest/PyTest
-        level: 85%
+        level: 10%
+        info: Lorem ipsum
 
       - name: Containers (Docker/docker-compose)
-        level: 60%
+        level: 10%
+        info: Lorem ipsum
 
       - name: Databases/Search engines
-        level: 60%
+        level: 10%
+        info: Lorem ipsum
 
 
 #
