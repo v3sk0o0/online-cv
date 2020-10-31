@@ -206,17 +206,17 @@ nskills:
         info: Used on a daily basis.
 
       - name: Elasticsearch
-        info: Used Elasticsearch on a daily basis. For productions purpses, I`ve tinkered with PostgreSQL/MongoDB.
+        info: Used Elasticsearch on a daily basis. I`ve also have experience with PostgreSQL/MongoDB.
 
       - name: (Python) Web developement
-        info: At home, I`ve experiment with the most popular (python) frameworks - Django, Flask, etc
+        info: I`ve experimented with the most popular (python) frameworks - Django, Flask, etc
 
       - name: Data pipelines
         info: 1 year of experience of creating, monitoring and supporting data pipelines.
 
       - name: Addtional programming languages
-        info: During my software career, I`ve tinkered with C/C++, Java, Javascript, Ruby, Haskell, Elixir, etc.
-              However, I have written production code only Java and Perl.
+        info: During my software career, I`ve tinkered with C/C++, Java, Perl,
+         Javascript, Ruby, Haskell, Elixir, etc.
 
 
 #
