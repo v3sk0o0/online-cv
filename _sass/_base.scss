@@ -28,6 +28,80 @@ p {
     line-height: 1.5;
 }
 
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+@-webkit-keyframes slide-left {
+    0% {
+     
+        -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+
+@keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(20%);
+              transform: translateX(20%);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  
+  @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 .wrapper {
     background:$theme-color;
     max-width: 1000px;
@@ -47,18 +121,23 @@ p {
     a {
         color: #fff;
     }
+
     .profile-container {
         padding: 30px;
         //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
         color: #fff;
+
     }
     .name {
         font-size: 32px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
+        -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+
     }
     .tagline {
         color: rgba(256, 256, 256, 0.6);
@@ -66,9 +145,12 @@ p {
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0;
+        -webkit-animation: slide-in-fwd-center 2.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+        animation: slide-in-fwd-center 2.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
     }
     .profile {
         margin-bottom: 15px;
+
     }
 
     .avatar {
@@ -78,14 +160,21 @@ p {
         border: 0px solid #fff;
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        -webkit-animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+
     }
     .contact-list {
         .fas, .fab {
             margin-right: 5px;
             font-size: 18px;
             vertical-align: middle;
+            -webkit-animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+            animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         }
         li {
+            -webkit-animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+            animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;
@@ -96,6 +185,8 @@ p {
         padding: 30px;
     }
     .container-block-title {
+        -webkit-animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         text-transform: uppercase;
         font-size: 16px;
         font-weight: 700;
@@ -103,15 +194,22 @@ p {
         margin-bottom: 15px;
     }
     .degree {
+        -webkit-animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 5px;
     }
     .education-container {
+        -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         .item {
+            -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+            animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;
+                
             }
         }
         .meta {
@@ -150,6 +248,8 @@ p {
     }
 
     .interests-list {
+        -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         margin-bottom: 0;
         li {
             margin-bottom: 10px;
@@ -160,10 +260,13 @@ p {
     }
 }
 
+
+
 .main-wrapper {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
+
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -171,6 +274,8 @@ p {
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
+        -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+        animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
         margin-bottom: 20px;
     }
     .section {
@@ -180,11 +285,15 @@ p {
     .new-summary{
          text-align: justify;
          text-justify: inter-word;
+         -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+         animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
     }
 
     .new-details{
          text-align: justify;
          text-justify: inter-word;
+         -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+         animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
 
          li{
             text-align: justify;
@@ -193,6 +302,8 @@ p {
     }
     .experiences-section, .educations-section {
         .item {
+            -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
+            animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
             margin-bottom: 30px;
         }
     }
@@ -202,6 +313,8 @@ p {
         margin-bottom: 2px;
     }
     .job-title, .degree {
+        -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
+        animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
         color: $text-color;
         font-size: 16px;
         margin-top: 0;
@@ -272,7 +385,8 @@ p {
     }
 
     .new-info{
-
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
     margin-top: 0;
     margin-bottom: 0;
 
