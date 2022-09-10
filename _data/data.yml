@@ -43,7 +43,7 @@ sidebar:
 
       - item: Containers(Docker) & Infrastructure-as-a-code(Terraform)
 
-      - item: Python web frameworks(Django/Flask/FastAPI..)
+      - item: Python web frameworks(Django/Flask/FastAPI)
 
       - item: Pyunittest/PyTest
 
