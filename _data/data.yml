@@ -27,8 +27,8 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+    #
 
     familiar:
       - item: Python, Go, Unix
@@ -155,7 +155,7 @@ experiences:
         - Worked with a team of developers on Python applications for Linux patch tooling
         - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
         - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
-        - Was a part of the company's internal training team for onboarding new employees and interns
+        - Was a part of the company's internal training team for onboarding/mentoring new colleagues/interns
         - Involved in entire lifecycle of the project
         - Worked with Agile and Scrum methodologies to ensure delivery of high quality software
         - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
@@ -176,9 +176,10 @@ experiences:
         time: VII.2021 - VI.2022
         company: Via, Sofia
         details: |
-            - Onboarded new colleagues
+            - Onboarded new colleagues.
+            - Documented technical specifications and project testing methods for future reference
             - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
-            - Created alarms & dashboard monitoring for APIs
+            - Monitored production APIs via cloud-based alarms/dashboard/notification
             - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
 
 
@@ -202,11 +203,11 @@ experiences:
            - Worked with a team of developers on Python applications for Linux patch tooling
            - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
            - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
-           - Was a part of the company's internal training team for onboarding new employees and interns
-           - Involved in entire lifecycle of the project
-           - Worked with Agile and Scrum methodologies to ensure delivery of high quality software
+           - Coordinated testing/validating process through software development lifecycle
+           - Leveraged Agile methodologies to move development lifecycle rapidly and to ensure delivery of high quality software
            - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
-
+           - Was a part of the company's internal training team for onboarding new employees and interns
+           - Mentored intern through training, design reviews and code reviews
 
 # projects:
 #     title: Projects
