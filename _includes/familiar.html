@@ -1,0 +1,22 @@
+{% assign interests = site.data.data.sidebar.familiar %}
+{% if interests %}
+<div class="interests-container container-block">
+
+  <h3 class="container-block-title-normal-case">
+    Area of key competencies
+  </h3>
+
+  <ul class="list-unstyled interests-list">
+    {% for interest in interests %}
+
+      {% if interest.link %}
+      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      {% else %}
+      <li>{{ interest.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

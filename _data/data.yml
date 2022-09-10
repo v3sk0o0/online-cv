@@ -7,196 +7,277 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Vesko Zdravkov
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: vesko.r.zdravkov@gmail.com
+    phone: +359 88 77 16 909
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    linkedin: veselin-zdravkov
+    # xing: alandoe
+    # github: sharu725
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
 
-        - idiom: French
-          level: Professional
+    familiar:
+      - item: Python, Go, Unix
 
-        - idiom: Spanish
-          level: Professional
+      - item: Git
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: CI/CD (Gitlab pipelines)
 
-        - item: Snowboarding
-          link:
+      - item: NoSQL + Relational Databases
 
-        - item: Cooking
-          link:
+      - item: Search Engines(ElasticSearch)
+
+      - item: Containers(Docker) & Infrastructure-as-a-code(Terraform)
+
+      - item: Python web frameworks(Django/Flask/FastAPI..)
+
+      - item: Pyunittest/PyTest
+
+      - item: Public cloud - GCP/AWS
+
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: English
+    #       level: Native
+    #
+    #     - idiom: French
+    #       level: Professional
+    #
+    #     - idiom: Spanish
+    #       level: Professional
+    #
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
+    #
+    #     - item: Snowboarding
+    #       link:
+    #
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: $ whoami
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As a passionate software engineer based in Sofia, I enjoy turning
+      complex problems into simple, creative and intuitive solutions.
+      I'm open to explore new technologies outside my comfort zone. I’m a strong team player who always acts with integrity. When conflicts arise, I get down to first principles. I value the most at my workspace - honesty, autonomy and ownership.
+
+      I'm curious about learning new skills and abilities. My latest endeavor is learning to ride a longboard.
+      Since a couple years ago, I've started listening to a lot of podcasts.
+      I would wholeheartedly recommend [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)​,
+      [99% Invisible](https://99percentinvisible.org/) and [Benjamin Walker’s theory of everything​](https://www.radiotopia.fm/podcasts/theory-of-everything).
+
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: MSc in Technology entrepreneurship
+        university: Sofia University, Sofia
+        time: 2016 - 2018
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+      - degree: BSc in Informatics
+        university: Sofia University, Sofia
+        time: 2012 - 2016
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+      - degree: Tertiary education
+        university: High school of mathematics 'Baba Tonka', Rousse
+        time: 2004 - 2012
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+        #
+
+experiences:
+
+    - role: Python/Go Developer
+      time: VIII.2021 - VI.2022
+      company: Via, Sofia
+      details: |
+        - Onboarded new colleagues
+        - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
+        - Created alarms & dashboard monitoring for APIs
+        - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
+
+    - role: Python Developer/Data Science Engineer
+      time: IX.2019 - VIII.2021
+      company: Browswave, Sofia
+      details: |
+            - Worked on an internal framework for "big" data validation
+            - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
+            - Created multiple flask/[FastAPI](https://fastapi.tiangolo.com/) APIs for internal usage (documented with [OpenAPI Specification](https://swagger.io/specification/))
+            - Utilized [Pytest](https://docs.pytest.org/), the Python unit test framework for testing the functionalities of the software
+            - Created multiple scripts for monitoring/detecting internal data for anomalies
+            - Used [pandas](https://pandas.pydata.org/), [xlsxwriter](https://xlsxwriter.readthedocs.io/), [postgresql](https://www.postgresql.org/) to implement complex customer reports generation
+            - Used [pydantic](https://pydantic-docs.helpmanual.io/usage/models/), [mypy](https://mypy.readthedocs.io/en/stable/index.html) & [pydantic-cli](https://pypi.org/project/pydantic-cli/) for data validation
+
+    - role: Python Developer
+      time: VII.2016 - IX.2019
+      company: Strypes, Sofia
+      details: |
+
+        - Worked with a team of developers on Python applications for Linux patch tooling
+        - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
+        - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
+        - Was a part of the company's internal training team for onboarding new employees and interns
+        - Involved in entire lifecycle of the project
+        - Worked with Agile and Scrum methodologies to ensure delivery of high quality software
+        - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+        # - role: Python/Go Developer
+        #   time: VIII.2021 - VI.2022
+        #   company: Via, Sofia
+        #   details: |
+        #     - Onboarded new colleagues
+        #     - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
+        #     - Created alarms & dashboard monitoring for APIs
+        #     - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
+
+      - role: Python/Go Developer
+        time: VII.2021 - VI.2022
+        company: Via, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Onboarded new colleagues
+            - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
+            - Created alarms & dashboard monitoring for APIs
+            - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
+
+
+      - role: Python Developer/Data Science Engineer
+        time: IX.2019 - VIII.2021
+        company: Browswave, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+              - Worked on an internal framework for "big" data validation
+              - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
+              - Created multiple flask/[FastAPI](https://fastapi.tiangolo.com/) APIs for internal usage (documented with [OpenAPI Specification](https://swagger.io/specification/))
+              - Utilized [Pytest](https://docs.pytest.org/), the Python unit test framework for testing the functionalities of the software
+              - Created multiple scripts for monitoring/detecting internal data for anomalies
+              - Used [pandas](https://pandas.pydata.org/), [xlsxwriter](https://xlsxwriter.readthedocs.io/), [postgresql](https://www.postgresql.org/) to implement complex customer reports generation
+              - Used [pydantic](https://pydantic-docs.helpmanual.io/usage/models/), [mypy](https://mypy.readthedocs.io/en/stable/index.html) & [pydantic-cli](https://pypi.org/project/pydantic-cli/) for data validation
+
+      - role: Python Developer
+        time: VII.2016 - IX.2019
+        company: Strypes, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+           - Worked with a team of developers on Python applications for Linux patch tooling
+           - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
+           - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
+           - Was a part of the company's internal training team for onboarding new employees and interns
+           - Involved in entire lifecycle of the project
+           - Worked with Agile and Scrum methodologies to ensure delivery of high quality software
+           - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+#
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+#
+# skills:
+#     title: Skills &amp; Proficiency
+#
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+#
+#       - name: Javascript & jQuery
+#         level: 98%
+#
+#       - name: Angular
+#         level: 98%
+#
+#       - name: HTML5 & CSS
+#         level: 95%
+#
+#       - name: Ruby on Rails
+#         level: 85%
+#
+#       - name: Sketch & Photoshop
+#         level: 60%
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

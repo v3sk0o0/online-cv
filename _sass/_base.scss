@@ -172,14 +172,40 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
+
+   .section-title-lowercase {
+        text-transform: lowercase;
+        font-size: 20px;
+        font-weight: 500;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+   }
+   
   .section {
     margin-bottom: 60px;
   }
+  .new-summary{
+     text-align: justify;
+     text-justify: inter-word;
+   }
 
+   .new-details{
+     text-align: justify;
+     text-justify: inter-word;
+
+     li{
+        text-align: justify;
+        text-justify: inter-word;
+     }
+    }
   .experiences-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
+      text-align: justify;
     }
   }
   .upper-row {
