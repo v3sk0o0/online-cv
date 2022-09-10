@@ -33,6 +33,8 @@ sidebar:
     familiar:
       - item: Python, Go, Unix
 
+      - item: Public cloud - GCP/AWS
+
       - item: Git
 
       - item: CI/CD (Gitlab pipelines, Github actions)
@@ -47,7 +49,7 @@ sidebar:
 
       - item: Pyunittest/PyTest
 
-      - item: Public cloud - GCP/AWS
+
 
     # languages:
     #   title: Languages
