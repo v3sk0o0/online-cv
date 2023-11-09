@@ -142,8 +142,8 @@ experiences:
         time: IX.2022  - present
         company: Simantech, Sofia
         details: |
-            -  Partnered within a team to craft a backend web client using [Go](https://go.dev) & [Amazon Web Services](https://aws.amazon.com/).
-            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), Javascript.
+            -  Partnered within a team to craft a backend web client using [Go](https://go.dev),[Amazon Web Services](https://aws.amazon.com/).
+            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/)
             -  Delivered polished exports derived from meticulously refined data details sourced externally. [Python](https://www.python.org/), [GCP](https://cloud.google.com/gcp)
 
       - role: Python/Go Developer
