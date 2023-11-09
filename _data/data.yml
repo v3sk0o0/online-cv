@@ -127,42 +127,6 @@ education:
         #
 
 experiences:
-
-    - role: Python/Go Developer
-      time: VIII.2021 - VI.2022
-      company: Via, Sofia
-      details: |
-        - Onboarded new colleagues
-        - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
-        - Created alarms & dashboard monitoring for APIs
-        - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
-
-    - role: Python Developer/Data Science Engineer
-      time: IX.2019 - VIII.2021
-      company: Browswave, Sofia
-      details: |
-            - Worked on an internal framework for "big" data validation
-            - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
-            - Created multiple flask/[FastAPI](https://fastapi.tiangolo.com/) APIs for internal usage (documented with [OpenAPI Specification](https://swagger.io/specification/))
-            - Utilized [Pytest](https://docs.pytest.org/), the Python unit test framework for testing the functionalities of the software
-            - Created multiple scripts for monitoring/detecting internal data for anomalies
-            - Used [pandas](https://pandas.pydata.org/), [xlsxwriter](https://xlsxwriter.readthedocs.io/), [postgresql](https://www.postgresql.org/) to implement complex customer reports generation
-            - Used [pydantic](https://pydantic-docs.helpmanual.io/usage/models/), [mypy](https://mypy.readthedocs.io/en/stable/index.html) & [pydantic-cli](https://pypi.org/project/pydantic-cli/) for data validation
-
-    - role: Python Developer
-      time: VII.2016 - IX.2019
-      company: Strypes, Sofia
-      details: |
-
-        - Worked with a team of developers on Python applications for Linux patch tooling
-        - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
-        - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
-        - Was a part of the company's internal training team for onboarding/mentoring new colleagues/interns
-        - Involved in entire lifecycle of the project
-        - Worked with Agile and Scrum methodologies to ensure delivery of high quality software
-        - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
-
-experiences:
     title: Experiences
     info:
         # - role: Python/Go Developer
@@ -173,6 +137,14 @@ experiences:
         #     - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
         #     - Created alarms & dashboard monitoring for APIs
         #     - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
+
+      - role: Python/Go Developer
+        time: IX.2022  - present
+        company: Simantech, Sofia
+        details: |
+            -  Partnered within a team to craft a backend web client using [Go](https://go.dev) & [Amazon Web Services](https://aws.amazon.com/).
+            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), Javascript.
+            -  Delivered polished exports derived from meticulously refined data details sourced externally. [Python](https://www.python.org/), [GCP](https://cloud.google.com/gcp)
 
       - role: Python/Go Developer
         time: VII.2021 - VI.2022
