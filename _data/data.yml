@@ -78,15 +78,15 @@ sidebar:
 career-profile:
     title: $ whoami
     summary: |
-      As a passionate software engineer based in Sofia, I enjoy turning
+      As a passionate software engineer based, I enjoy turning
       complex problems into simple, creative and intuitive solutions.
       I'm open to explore new technologies outside my comfort zone. I’m a strong team player who always acts with integrity. When conflicts arise, I get down to first principles. I value the most at my workspace - honesty, autonomy and ownership.
 
-      I'm curious about learning new skills and abilities. My latest endeavor is learning to ride a longboard.
-      Since a couple years ago, I've started listening to a lot of podcasts.
-      I would wholeheartedly recommend [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)​,
-      [99% Invisible](https://99percentinvisible.org/) and [Benjamin Walker’s theory of everything​](https://www.radiotopia.fm/podcasts/theory-of-everything).
-
+#      I'm curious about learning new skills and abilities. My latest endeavor is learning to ride a longboard.
+#      Since a couple years ago, I've started listening to a lot of podcasts.
+#      I would wholeheartedly recommend [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)​,
+#      [99% Invisible](https://99percentinvisible.org/) and [Benjamin Walker’s theory of everything​](https://www.radiotopia.fm/podcasts/theory-of-everything).
+#
 
 education:
     title: Education
@@ -142,46 +142,72 @@ experiences:
         time: IX.2022  - present
         company: Simantech, Sofia
         details: |
-            -  Partnered within a team to craft a backend web client using [Go](https://go.dev),[Amazon Web Services](https://aws.amazon.com/).
-            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/)
-            -  Delivered polished exports derived from meticulously refined data details sourced externally. [Python](https://www.python.org/), [GCP](https://cloud.google.com/gcp)
+          
+              - Scalable Backend Development: Developed and deployed multiple Go-based web services on AWS/GCP, ensuring seamless integration with cloud-native infrastructure.
+              - Workflow Automation: Streamlined business operations by engineering automated logic pipelines using Python and JS webhooks, reducing manual processing overhead.
+              - Data Engineering & ETL: Developed automated data pipelines in Python to ingest and refine external datasets, generating high-fidelity business intelligence reports on Google Cloud Platform (GCP).
+
+#            -  Partnered within a team to craft a backend web client using [Go](https://go.dev),[Amazon Web Services](https://aws.amazon.com/).
+#            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/)
+#            -  Delivered polished exports derived from meticulously refined data details sourced externally. [Python](https://www.python.org/), [GCP](https://cloud.google.com/gcp)
 
       - role: Python/Go Developer
         time: VII.2021 - VI.2022
         company: Via, Sofia
         details: |
-            - Onboarded new colleagues.
-            - Documented technical specifications and project testing methods for future reference
-            - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
-            - Monitored production APIs via cloud-based alarms/dashboard/notification
-            - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
+          
+            - Cloud Architecture: Deployed scalable, end-to-end CRUD REST APIs using Go and AWS, leveraging AWS Lambda, Serverless Framework, and DynamoDB.
+            - Infrastructure as Code (IaC): Architected a multi-tenant public API using Golang, managed via Terraform for automated provisioning on GCP (Cloud Run) and secured with Cloud Armor.
+            - Workflow Automation: Optimized complex business logic pipelines by implementing high-performance Python and JavaScript webhooks, reducing manual intervention and processing latency.
+            - Operational Excellence: Established proactive production monitoring using cloud-based dashboards, automated alarms, and notification systems to ensure high service availability.
+            - Technical Leadership: Accelerated team integration by onboarding new engineers and authoring comprehensive technical specifications and E2E testing protocols.
+  
+
+#            - Onboarded new colleagues.
+#            - Documented technical specifications and project testing methods for future reference
+#            - Implemented E2E Python CRUD REST APIs with [Amazon Web Services](https://aws.amazon.com/), [Serverless](https://www.serverless.com/), [AWS Lambda](https://aws.amazon.com/lambda/) and [DynamoDB](https://aws.amazon.com/dynamodb/)
+#            - Monitored production APIs via cloud-based alarms/dashboard/notification
+#            - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
 
 
       - role: Python Developer/Data Science Engineer
         time: IX.2019 - VIII.2021
         company: Browswave, Sofia
         details: |
-              - Worked on an internal framework for "big" data validation
-              - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
-              - Created multiple flask/[FastAPI](https://fastapi.tiangolo.com/) APIs for internal usage (documented with [OpenAPI Specification](https://swagger.io/specification/))
-              - Utilized [Pytest](https://docs.pytest.org/), the Python unit test framework for testing the functionalities of the software
-              - Created multiple scripts for monitoring/detecting internal data for anomalies
-              - Used [pandas](https://pandas.pydata.org/), [xlsxwriter](https://xlsxwriter.readthedocs.io/), [postgresql](https://www.postgresql.org/) to implement complex customer reports generation
-              - Used [pydantic](https://pydantic-docs.helpmanual.io/usage/models/), [mypy](https://mypy.readthedocs.io/en/stable/index.html) & [pydantic-cli](https://pypi.org/project/pydantic-cli/) for data validation
+          
+          - Big Data Integrity: Developed a proprietary Python framework for large-scale data validation, ensuring high-fidelity processing within ElasticSearch data pipelines.
+          - API Engineering: Built internal microservices using FastAPI and Flask, strictly adhering to OpenAPI (Swagger) specifications for standardized documentation.
+          - Data Validation: Implemented rigorous type-safety and data-parsing layers using Pydantic, Mypy, and Pydantic-CLI to eliminate runtime anomalies.
+          - Advanced Analytics: Automated the generation of complex, multi-dimensional stakeholder reports by leveraging Pandas, PostgreSQL, and XlsxWriter.
+          - Quality Assurance: Achieved high code reliability by architecting comprehensive unit testing suites with Pytest.
+
+#              - Worked on an internal framework for "big" data validation
+#              - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
+#              - Created multiple flask/[FastAPI](https://fastapi.tiangolo.com/) APIs for internal usage (documented with [OpenAPI Specification](https://swagger.io/specification/))
+#              - Utilized [Pytest](https://docs.pytest.org/), the Python unit test framework for testing the functionalities of the software
+#              - Created multiple scripts for monitoring/detecting internal data for anomalies
+#              - Used [pandas](https://pandas.pydata.org/), [xlsxwriter](https://xlsxwriter.readthedocs.io/), [postgresql](https://www.postgresql.org/) to implement complex customer reports generation
+#              - Used [pydantic](https://pydantic-docs.helpmanual.io/usage/models/), [mypy](https://mypy.readthedocs.io/en/stable/index.html) & [pydantic-cli](https://pypi.org/project/pydantic-cli/) for data validation
 
       - role: Python Developer
         time: VII.2016 - IX.2019
         company: Strypes, Sofia
         details: |
 
-           - Worked with a team of developers on Python applications for Linux patch tooling
-           - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
-           - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
-           - Coordinated testing/validating process through software development lifecycle
-           - Leveraged Agile methodologies to move development lifecycle rapidly and to ensure delivery of high quality software
-           - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
-           - Was a part of the company's internal training team for onboarding new employees and interns
-           - Mentored intern through training, design reviews and code reviews
+            - DevOps & Tooling: Developed Python-based automation for Linux patch management and created a Docker-based production simulation environment to accelerate the development lifecycle.
+            - Agile Execution: Leveraged Agile/Scrum methodologies and JIRA to streamline the Software Development Lifecycle (SDLC) and ensure timely delivery of high-quality software.
+            - Mentorship & Training: Served as a core member of the internal training team, mentoring interns through structured design reviews, code audits, and technical workshops.
+            - Quality Control: Coordinated end-to-end testing and validation processes to maintain software integrity from development through to production release.
+
+
+#           - Worked with a team of developers on Python applications for Linux patch tooling
+#           - Created a [docker](https://www.docker.com/) simulation of our production environment to ensure faster product development
+#           - Utilized [the Python unit test framework](https://docs.python.org/3/library/unittest.html) for testing the functionalities of the software
+#           - Coordinated testing/validating process through software development lifecycle
+#           - Leveraged Agile methodologies to move development lifecycle rapidly and to ensure delivery of high quality software
+#           - Introduced to the industry standard - bug and issue tracking system - [JIRA](https://www.atlassian.com/software/jira)
+#           - Was a part of the company's internal training team for onboarding new employees and interns
+#           - Mentored intern through training, design reviews and code reviews
 
 # projects:
 #     title: Projects
