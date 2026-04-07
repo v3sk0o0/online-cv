@@ -35,20 +35,19 @@ sidebar:
 
       - item: Public cloud - GCP/AWS
 
-      - item: Git
+      - item: VCS - Git
 
-      - item: CI/CD (Gitlab pipelines, Github actions)
+      - item: CI/CD - (Gitlab pipelines, Github actions)
 
       - item: NoSQL + Relational Databases
 
       - item: Search Engines(ElasticSearch)
 
-      - item: Containers(Docker) & Infrastructure-as-a-code(Terraform)
+      - item: Containers(Docker) & Infrastructure-as-a-code(Terraform, pulumi)
 
-      - item: Python web frameworks(Django/Flask/FastAPI)
+      - item: Web frameworks - Echo, Flask, FastAPI.
 
-      - item: Pyunittest/PyTest
-
+      - item: Testing tooling - Pyunittest, PyTest, Ginkgo, Gomega.
 
 
     # languages:
@@ -138,7 +137,7 @@ experiences:
         #     - Created alarms & dashboard monitoring for APIs
         #     - Implemented multi-tenant public API with [Golang](https://go.dev/), [Cloud run](https://cloud.google.com/run), [Terraform](https://www.terraform.io/), [Cloud armor](https://cloud.google.com/armor)
 
-      - role: Python/Go Developer
+      - role: Go/Python Developer
         time: IX.2022  - present
         company: Simantech, Sofia
         details: |
