@@ -10,12 +10,35 @@
   <!--<![endif]-->
   {% include head.html %}
   <style>
+    /* Keep the site's two-column layout for the PDF (colored sidebar on the
+       left, like the live page), compacted to fit on as few A4 pages as
+       possible. html2pdf screenshots this screen layout, so these rules stay
+       outside @media print. */
     body {
       padding: 0 !important;
+      font-size: 11px !important;
+      line-height: 1.45 !important; /* leading — was 1.25, too cramped to read */
     }
     .wrapper {
-      max-width: unset !important;
+      max-width: unset !important; /* full page width; grid stays two-column */
     }
+
+    /* Sidebar — compact but with a little breathing room between items */
+    .sidebar-wrapper .profile-container { padding: 16px !important; }
+    .sidebar-wrapper .avatar { width: 64px !important; height: 64px !important; margin-bottom: 6px !important; }
+    .sidebar-wrapper .name { font-size: 20px !important; margin-bottom: 2px !important; }
+    .sidebar-wrapper .tagline { font-size: 12px !important; }
+    .sidebar-wrapper .contact-list li { margin-bottom: 6px !important; font-size: 11px !important; }
+    .sidebar-wrapper .container-block { padding: 16px !important; }
+    .sidebar-wrapper .container-block-title { margin-bottom: 8px !important; font-size: 13px !important; }
+    .sidebar-wrapper .container-block li { margin-bottom: 5px !important; }
+
+    /* Compact main column */
+    .main-wrapper { padding: 16px 22px !important; }
+    .main-wrapper .section { margin-bottom: 12px !important; }
+    .main-wrapper .section-title { margin-bottom: 6px !important; }
+    .main-wrapper .experiences-section .item,
+    .main-wrapper .educations-section .item { margin-bottom: 8px !important; }
   </style>
   <body>
     <div class="wrapper">

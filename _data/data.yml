@@ -19,7 +19,7 @@ sidebar:
     # website: blog.webjeda.com #do not add http://
     linkedin: veselin-zdravkov
     # xing: alandoe
-    # github: sharu725
+    # github: v3sk0o0
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
@@ -31,37 +31,30 @@ sidebar:
     #
 
     familiar:
-      - item: Python, Go, Unix
+      - item: "<strong>Languages</strong> — Python · Go · Bash"
 
-      - item: Public cloud - GCP/AWS
+      - item: "<strong>Cloud</strong> — GCP · AWS"
 
-      - item: VCS - Git
+      - item: "<strong>IaC &amp; Containers</strong> — Terraform · Pulumi · Docker"
 
-      - item: CI/CD - (Gitlab pipelines, Github actions)
+      - item: "<strong>CI/CD</strong> — GitLab CI · GitHub Actions"
 
-      - item: NoSQL + Relational Databases
+      - item: "<strong>Databases</strong> — PostgreSQL · MySQL · DynamoDB"
 
-      - item: Search Engines(ElasticSearch)
+      - item: "<strong>APIs &amp; Web</strong> — FastAPI · Flask · Echo"
 
-      - item: Containers(Docker) & Infrastructure-as-a-code(Terraform, pulumi)
-
-      - item: Web frameworks - Echo, Flask, FastAPI.
-
-      - item: Testing tooling - Pyunittest, PyTest, Ginkgo, Gomega.
+      - item: "<strong>Testing</strong> — pytest · Ginkgo · Gomega"
 
 
-    # languages:
-    #   title: Languages
-    #   info:
-    #     - idiom: English
-    #       level: Native
-    #
-    #     - idiom: French
-    #       level: Professional
-    #
-    #     - idiom: Spanish
-    #       level: Professional
-    #
+    languages:
+      title: "$ locale"
+      info:
+        - idiom: Bulgarian
+          level: Native
+
+        - idiom: English
+          level: Professional
+
     # interests:
     #   title: Interests
     #   info:
@@ -77,9 +70,12 @@ sidebar:
 career-profile:
     title: $ whoami
     summary: |
-      As a passionate software engineer, I enjoy turning
-      complex problems into simple, creative and intuitive solutions.
-      I'm open to explore new technologies outside my comfort zone. I’m a strong team player who always acts with integrity. When conflicts arise, I get down to first principles. I value the most at my workspace - honesty, autonomy and ownership.
+      Backend developer in Go and Python, building cloud-native services on AWS
+      and GCP — REST and multi-tenant APIs, data pipelines and infrastructure-as-code
+      — with a focus on well-tested, maintainable systems. I enjoy turning complex
+      problems into simple solutions, and I'm always open to technologies outside
+      my comfort zone. When conflicts arise, I get down to first principles. I
+      value most at my workspace — honesty, autonomy and ownership.
 
 #      I'm curious about learning new skills and abilities. My latest endeavor is learning to ride a longboard.
 #      Since a couple years ago, I've started listening to a lot of podcasts.
@@ -88,7 +84,7 @@ career-profile:
 #
 
 education:
-    title: Education
+    title: "$ apt list --installed"
     info:
       - degree: MSc in Technology entrepreneurship
         university: Sofia University, Sofia
@@ -126,7 +122,7 @@ education:
         #
 
 experiences:
-    title: Experiences
+    title: "$ git log"
     info:
         # - role: Python/Go Developer
         #   time: VIII.2021 - VI.2022
@@ -142,9 +138,9 @@ experiences:
         company: Simantech, Sofia
         details: |
           
-              - **Scalable Backend Development:** Developed and deployed multiple Go-based web services on AWS/GCP, ensuring seamless integration with cloud-native infrastructure.
-              - **Workflow Automation:** Streamlined business operations by engineering automated logic pipelines using Python and JS webhooks, reducing manual processing overhead.
-              - **Data Engineering & ETL:** Developed automated data pipelines in Python to ingest and refine external datasets, generating high-fidelity business intelligence reports on Google Cloud Platform (GCP).
+              - **Backend services:** Built and deployed multiple Go services on AWS and GCP.
+              - **Workflow automation:** Automated business workflows with Python and JS webhooks, removing manual steps.
+              - **Reporting:** Built Python data pipelines on GCP that generate business reports which aren't feasible to produce by hand.
 
 #            -  Partnered within a team to craft a backend web client using [Go](https://go.dev),[Amazon Web Services](https://aws.amazon.com/).
 #            -  Optimized business workflows by automating intricate business logic pipelines via webhook implementation. [Python](https://www.python.org/), [Javascript](https://developer.mozilla.org/)
@@ -155,11 +151,12 @@ experiences:
         company: Via, Sofia
         details: |
           
-            - **Cloud Architecture:** Deployed scalable, end-to-end CRUD REST APIs using Go and AWS, leveraging AWS Lambda, Serverless Framework, and DynamoDB.
-            - **Infrastructure as Code (IaC):** Architected a multi-tenant public API using Golang, managed via Terraform for automated provisioning on GCP (Cloud Run) and secured with Cloud Armor.
-            - **Workflow Automation:** Optimized complex business logic pipelines by implementing high-performance Python and JavaScript webhooks, reducing manual intervention and processing latency.
-            - **Operational Excellence:** Established proactive production monitoring using cloud-based dashboards, automated alarms, and notification systems to ensure high service availability.
-            - **Technical Leadership:** Accelerated team integration by onboarding new engineers and authoring comprehensive technical specifications and E2E testing protocols.
+            - **Performance:** Cut an API endpoint's response time from ~200ms to ~1ms by serving the dataset from memory instead of reading it from S3 on each request.
+            - **Cloud architecture:** Built end-to-end CRUD REST APIs with Go and AWS (Lambda, Serverless Framework, DynamoDB).
+            - **Infrastructure as code:** Built a multi-tenant public API in Go, provisioned with Terraform on GCP Cloud Run and secured with Cloud Armor.
+            - **Automation:** Wrote Python and JavaScript webhooks to replace manual steps in business workflows.
+            - **Monitoring:** Set up production dashboards, alarms and alerts.
+            - **Onboarding:** Onboarded new engineers and wrote technical specs and E2E tests.
   
 
 #            - Onboarded new colleagues.
@@ -174,11 +171,11 @@ experiences:
         company: Browswave, Sofia
         details: |
           
-          - **Big Data Integrity:** Developed a proprietary Python framework for large-scale data validation, ensuring high-fidelity processing within ElasticSearch data pipelines.
-          - **API Engineering:** Built internal microservices using FastAPI and Flask, strictly adhering to OpenAPI (Swagger) specifications for standardized documentation.
-          - **Data Validation:** Implemented rigorous type-safety and data-parsing layers using Pydantic, Mypy, and Pydantic-CLI to eliminate runtime anomalies.
-          - **Advanced Analytics:** Automated the generation of complex, multi-dimensional stakeholder reports by leveraging Pandas, PostgreSQL, and XlsxWriter.
-          - **Quality Assurance:** Achieved high code reliability by architecting comprehensive unit testing suites with Pytest.
+          - **Data validation framework:** Built a Python framework for data validation in Elasticsearch pipelines.
+          - **APIs:** Built internal microservices with FastAPI and Flask, documented with OpenAPI (Swagger).
+          - **Type safety:** Added type-safety and parsing layers with Pydantic, Mypy and Pydantic-CLI to catch errors early.
+          - **Reporting:** Automated ~20-40 stakeholder reports with Pandas, PostgreSQL and XlsxWriter.
+          - **Testing:** Wrote unit test suites with pytest.
 
 #              - Worked on an internal framework for "big" data validation
 #              - Experienced first hand with data pipelines with [ElasticSearch](https://www.elastic.co/)
@@ -193,10 +190,10 @@ experiences:
         company: Strypes, Sofia
         details: |
           
-            - **DevOps & Tooling:** Developed Python-based automation for Linux patch management and created a Docker-based production simulation environment to accelerate the development lifecycle.
-            - **Agile Execution:** Leveraged Agile/Scrum methodologies and JIRA to streamline the Software Development Lifecycle (SDLC) and ensure timely delivery of high-quality software.
-            - **Mentorship & Training:** Served as a core member of the internal training team, mentoring interns through structured design reviews, code audits, and technical workshops.
-            - **Quality Control:** Coordinated end-to-end testing and validation processes to maintain software integrity from development through to production release.
+            - **DevOps & tooling:** Wrote Python automation for Linux patch management and built a Docker-based simulation of production to speed up development.
+            - **Agile:** Worked in Agile/Scrum with JIRA.
+            - **Mentoring:** As part of the internal training team, onboarded ~10 new joiners and interns and mentored a junior developer through design and code reviews.
+            - **Quality:** Coordinated end-to-end testing and validation through to release.
 
 
 #           - Worked with a team of developers on Python applications for Linux patch tooling
