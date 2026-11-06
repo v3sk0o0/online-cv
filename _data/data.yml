@@ -47,7 +47,7 @@ sidebar:
 
 
     languages:
-      title: "$ locale"
+      title: Languages
       info:
         - idiom: Bulgarian
           level: Native
@@ -68,7 +68,7 @@ sidebar:
     #       link:
 
 career-profile:
-    title: $ whoami
+    title: Career Profile
     summary: |
       Backend developer in Go and Python, building cloud-native services on AWS
       and GCP — REST and multi-tenant APIs, data pipelines and infrastructure-as-code
@@ -84,7 +84,7 @@ career-profile:
 #
 
 education:
-    title: "$ apt list --installed"
+    title: Education
     info:
       - degree: MSc in Technology entrepreneurship
         university: Sofia University, Sofia
@@ -122,7 +122,7 @@ education:
         #
 
 experiences:
-    title: "$ git log"
+    title: Work Experience
     info:
         # - role: Python/Go Developer
         #   time: VIII.2021 - VI.2022
