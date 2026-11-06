@@ -68,7 +68,7 @@ sidebar:
     #       link:
 
 career-profile:
-    title: Career Profile
+    title: Career profile
     summary: |
       Backend developer in Go and Python, building cloud-native services on AWS
       and GCP — REST and multi-tenant APIs, data pipelines and infrastructure-as-code
@@ -122,7 +122,7 @@ education:
         #
 
 experiences:
-    title: Work Experience
+    title: Work experience
     info:
         # - role: Python/Go Developer
         #   time: VIII.2021 - VI.2022

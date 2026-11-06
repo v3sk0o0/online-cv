@@ -102,7 +102,7 @@ p {
     padding: 30px;
   }
   .container-block-title {
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
@@ -165,9 +165,9 @@ p {
   background: #fff;
   padding: 60px;
   .section-title {
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
